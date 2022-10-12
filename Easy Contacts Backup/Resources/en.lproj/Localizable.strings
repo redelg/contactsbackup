@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Easy Contacts Backup
+
+  Created by Renzo Delgado on 27/09/22.
+  
+*/
+
+"Settings" = "Settings";
+"ProVersion" = "Pro Version";
+"MoreApps" = "More Apps";
+"PrivacyPolicy" = "Privacy Policy";
+"Version %@" = "Version %@";
+"GetPro" = "Get Pro";
+"Buy %@" = "Buy %@";
+"Purchased" = "Purchased";
+"Restore" = "Restore";
+"Delete" = "Delete";
+"Cancel" = "Cancel";
+"RestorePurchase" = "Restore Purchase";
+"Purchasing" = "Purchasing";
+
+"SinglePaymentTitle" = "Single payment";
+"SinglePaymentCaption" = "Be premium forever by paying only once. No annoying subscriptions.";
+"RemoveAdsTitle" = "Remove ads";
+"RemoveAdsCaption" = "No more ads. Browse the app without distractions.";
+"UnlimitedContacts" = "No limits.";
+"UnlimitedContactsCaption" = "Backup and export unlimited contacts.";
+
+"ExportFormat" = "Export Format";
+"PermissionTitle" = "Permission Required";
+"PermissionDescription" = "Contacts permission is required to continue with the export.";
+"GotIt" = "Got It";
+
+"Contacts" = "Contacts";
+"History" = "History";
+"NoHistory" = "No export history";
+"Export" = "Export";
+"Done" = "Done";
+
+"RestoreContacts" = "Restore backup";
+"ReplaceContacts" = "Replace your contacts";
+"AddToContacts" = "Add to contacts";
+
+"SelectAction" = "Select an action";
+"DeleteBackup" = "Delete backup";
+"ExportContacts" = "Export contacts";
+"ExportToCSVExcel" = "Export to CSV/Excel";
+"ExportToVCard" = "Export to vCard";
+
+"NoContactsTitle" = "No contacts";
+"NoContactsDescription" = "You have no contacts to export.";
+
+"LimitTitle" = "Contacts Limit";
+"LimitDescription" = "Free version can only export your first 70 contacts. To export all your concats, please ugrade to the Pro version";

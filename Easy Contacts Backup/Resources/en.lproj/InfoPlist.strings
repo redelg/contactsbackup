@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Easy Contacts Backup
+
+  Created by Renzo Delgado on 19/09/22.
+  
+*/
+
+"NSContactsUsageDescription" = "Contacts permission is needed for exporting.";

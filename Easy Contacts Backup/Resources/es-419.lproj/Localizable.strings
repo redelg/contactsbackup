@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Easy Contacts Backup
+
+  Created by Renzo Delgado on 27/09/22.
+  
+*/
+
+"Settings" = "Opciones";
+"ProVersion" = "Versión Pro";
+"MoreApps" = "Nuestras Apps";
+"PrivacyPolicy" = "Política de Privacidad";
+"Version %@" = "Versión %@";
+"GetPro" = "Obtener Pro";
+"Buy %@" = "Comprar %@";
+"Purchased" = "Adquirido";
+"Restore" = "Restaurar";
+"Delete" = "Eliminar";
+"Cancel" = "Cancelar";
+"RestorePurchase" = "Restaurar Compra";
+"Purchasing" = "Cargando";
+
+"RemoveAdsTitle" = "Quitar publicidad";
+"RemoveAdsCaption" = "No más anuncios. Navega tranquilamente en la aplicación sin distracciones.";
+"SinglePaymentTitle" = "Un solo pago";
+"SinglePaymentCaption" = "Sé premium para siempre pagando una sola vez. Sin molestas subscripciones.";
+"UnlimitedContacts" = "Sin límites.";
+"UnlimitedContactsCaption" = "Respalda y exporta contactos sin límites.";
+
+"ExportFormat" = "Formato de Exportación";
+"PermissionTitle" = "Permiso Requerido";
+"PermissionDescription" = "Se requiere el permiso para acceder a sus contactos para continuar con la exportación.";
+"GotIt" = "Entendido";
+
+"Contacts" = "Contactos";
+"History" = "Historial";
+"Export" = "Exportar";
+"NoHistory" = "Sin historial de exportaciones";
+"Done" = "Listo";
+
+"RestoreContacts" = "Restaurar Contactos";
+"ReplaceContacts" = "Reemplazar tus Contactos";
+"AddToContacts" = "Añadir a Contactos";
+
+"SelectAction" = "Selecciona una acción";
+"DeleteBackup" = "Eliminar respaldo";
+"Exportar Contactos" = "Exportar contactos";
+"ExportToCSVExcel" = "Exportar a CSV/Excel";
+"ExportToVCard" = "Export a vCard";
+
+"NoContactsTitle" = "Sin contactos";
+"NoContactsDescription" = "No tienes contactos para exportar.";
+
+"LimitTitle" = "Límite de Contactos";
+"LimitDescription" = "Con la versión gratuita puedes exportar como máximo 70 contactos. Para exportar todos tus contactos, actualiza a la versión Pro";

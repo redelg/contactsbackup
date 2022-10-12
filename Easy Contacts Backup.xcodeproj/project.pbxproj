@@ -7,18 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C93C0AB528D3C59000723070 /* Easy_Contacts_BackupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C0AB428D3C59000723070 /* Easy_Contacts_BackupApp.swift */; };
+		C92408F928DA7A3000DD3951 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92408F828DA7A3000DD3951 /* ShareSheet.swift */; };
+		C930A82328D98CAC0093987C /* ExportFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C930A82228D98CAC0093987C /* ExportFormat.swift */; };
+		C93ADC6F28E378C000A146C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC6E28E378C000A146C9 /* SettingsView.swift */; };
+		C93ADC7228E37B9200A146C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93ADC7428E37B9200A146C9 /* Localizable.strings */; };
+		C93ADC7628E37B9B00A146C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93ADC7828E37B9B00A146C9 /* InfoPlist.strings */; };
+		C93ADC7B28E37BB600A146C9 /* StaticTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC7A28E37BB600A146C9 /* StaticTexts.swift */; };
+		C93ADC7D28E37BD800A146C9 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC7C28E37BD800A146C9 /* PremiumView.swift */; };
+		C93ADC7F28E380B100A146C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC7E28E380B100A146C9 /* Extensions.swift */; };
+		C93ADC8128E380CF00A146C9 /* PremiumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC8028E380CF00A146C9 /* PremiumViewModel.swift */; };
+		C93ADC8328E3814700A146C9 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93ADC8228E3814700A146C9 /* Image.swift */; };
+		C93C0AB528D3C59000723070 /* EasyContactsBackupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C0AB428D3C59000723070 /* EasyContactsBackupApp.swift */; };
 		C93C0AB728D3C59000723070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C0AB628D3C59000723070 /* ContentView.swift */; };
 		C93C0AB928D3C59200723070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93C0AB828D3C59200723070 /* Assets.xcassets */; };
 		C93C0ABC28D3C59200723070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93C0ABB28D3C59200723070 /* Preview Assets.xcassets */; };
+		C985CCCF28D9FBBA002BF88F /* CsvUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C985CCCE28D9FBBA002BF88F /* CsvUtil.swift */; };
+		C98C133E28DD6F27001AB2BC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C133D28DD6F27001AB2BC /* String.swift */; };
+		C98C134028DD773F001AB2BC /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C133F28DD773F001AB2BC /* ContactDetailView.swift */; };
+		C992384D28E314C800A239DB /* PremiumFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992384C28E314C800A239DB /* PremiumFeature.swift */; };
+		C992385028E3164900A239DB /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = C992384F28E3164900A239DB /* RevenueCat */; };
+		C992385328E32EE600A239DB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C992385228E32EE600A239DB /* StoreKit.framework */; };
+		C992C94028DD132F001035EE /* DetailtemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992C93F28DD132F001035EE /* DetailtemView.swift */; };
+		C99F19F528DBC43200951957 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99F19F428DBC43200951957 /* LoadingView.swift */; };
+		C99F19F828DBC93D00951957 /* HistoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99F19F728DBC93D00951957 /* HistoryItemView.swift */; };
+		C9AA755A28DF319E0030799B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = C9AA755928DF319E0030799B /* GoogleMobileAds */; };
+		C9AA755C28DF31EE0030799B /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA755B28DF31EE0030799B /* BannerView.swift */; };
+		C9AA755F28DF350E0030799B /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA755E28DF350E0030799B /* Ads.swift */; };
+		C9AA756128DFE0340030799B /* CNContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA756028DFE0340030799B /* CNContact.swift */; };
+		C9AEB59528D909EC00F37870 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AEB59428D909EC00F37870 /* SplashScreen.storyboard */; };
+		C9AEB59728D92BB400F37870 /* ExportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AEB59628D92BB400F37870 /* ExportViewModel.swift */; };
+		C9AEB59C28D9703000F37870 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AEB59B28D9703000F37870 /* Keys.swift */; };
+		C9AEB59F28D9821500F37870 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AEB59D28D9821500F37870 /* Contacts.xcdatamodeld */; };
+		C9AEB5A128D983E600F37870 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AEB5A028D983E600F37870 /* DataController.swift */; };
+		C9AEB5A328D9894300F37870 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AEB5A228D9894300F37870 /* HistoryView.swift */; };
+		C9E1FDD728D5A253006AD07E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FDD628D5A253006AD07E /* MainView.swift */; };
+		C9E1FDDB28D5A2A2006AD07E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FDDA28D5A2A2006AD07E /* Colors.swift */; };
+		C9FD2A0C28DBD18000F97592 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD2A0B28DBD18000F97592 /* HistoryViewModel.swift */; };
+		C9FD2A0F28DBD82D00F97592 /* ExportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD2A0E28DBD82D00F97592 /* ExportDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C92408F828DA7A3000DD3951 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		C930A82228D98CAC0093987C /* ExportFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormat.swift; sourceTree = "<group>"; };
+		C93ADC6E28E378C000A146C9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C93ADC7328E37B9200A146C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C93ADC7528E37B9500A146C9 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C93ADC7728E37B9B00A146C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C93ADC7928E37B9E00A146C9 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C93ADC7A28E37BB600A146C9 /* StaticTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTexts.swift; sourceTree = "<group>"; };
+		C93ADC7C28E37BD800A146C9 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		C93ADC7E28E380B100A146C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C93ADC8028E380CF00A146C9 /* PremiumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewModel.swift; sourceTree = "<group>"; };
+		C93ADC8228E3814700A146C9 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		C93C0AB128D3C59000723070 /* Easy Contacts Backup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Contacts Backup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C93C0AB428D3C59000723070 /* Easy_Contacts_BackupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Contacts_BackupApp.swift; sourceTree = "<group>"; };
+		C93C0AB428D3C59000723070 /* EasyContactsBackupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyContactsBackupApp.swift; sourceTree = "<group>"; };
 		C93C0AB628D3C59000723070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C93C0AB828D3C59200723070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93C0ABB28D3C59200723070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C985CCCE28D9FBBA002BF88F /* CsvUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvUtil.swift; sourceTree = "<group>"; };
+		C98C133D28DD6F27001AB2BC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C98C133F28DD773F001AB2BC /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		C992384C28E314C800A239DB /* PremiumFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumFeature.swift; sourceTree = "<group>"; };
+		C992385228E32EE600A239DB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C992C93F28DD132F001035EE /* DetailtemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailtemView.swift; sourceTree = "<group>"; };
+		C99F19F428DBC43200951957 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C99F19F728DBC93D00951957 /* HistoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemView.swift; sourceTree = "<group>"; };
+		C9AA755B28DF31EE0030799B /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		C9AA755D28DF33C30030799B /* Easy-Contacts-Backup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Easy-Contacts-Backup-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C9AA755E28DF350E0030799B /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		C9AA756028DFE0340030799B /* CNContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNContact.swift; sourceTree = "<group>"; };
+		C9AEB59428D909EC00F37870 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		C9AEB59628D92BB400F37870 /* ExportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportViewModel.swift; sourceTree = "<group>"; };
+		C9AEB59B28D9703000F37870 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		C9AEB59E28D9821500F37870 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
+		C9AEB5A028D983E600F37870 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C9AEB5A228D9894300F37870 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C9E1FDD628D5A253006AD07E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C9E1FDDA28D5A2A2006AD07E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C9FD2A0B28DBD18000F97592 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		C9FD2A0E28DBD82D00F97592 /* ExportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +93,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C992385328E32EE600A239DB /* StoreKit.framework in Frameworks */,
+				C992385028E3164900A239DB /* RevenueCat in Frameworks */,
+				C9AA755A28DF319E0030799B /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C93ADC6C28E3789B00A146C9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C93ADC6E28E378C000A146C9 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C93ADC6D28E378A700A146C9 /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				C93ADC7C28E37BD800A146C9 /* PremiumView.swift */,
+				C93ADC8028E380CF00A146C9 /* PremiumViewModel.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
 		C93C0AA828D3C59000723070 = {
 			isa = PBXGroup;
 			children = (
 				C93C0AB328D3C59000723070 /* Easy Contacts Backup */,
 				C93C0AB228D3C59000723070 /* Products */,
+				C992385128E32EE600A239DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +139,13 @@
 		C93C0AB328D3C59000723070 /* Easy Contacts Backup */ = {
 			isa = PBXGroup;
 			children = (
-				C93C0AB428D3C59000723070 /* Easy_Contacts_BackupApp.swift */,
-				C93C0AB628D3C59000723070 /* ContentView.swift */,
+				C9AA755D28DF33C30030799B /* Easy-Contacts-Backup-Info.plist */,
+				C9E1FDD928D5A293006AD07E /* Utils */,
+				C9803F7028D3E43D00E1B03D /* Domain */,
+				C9803F6F28D3E43800E1B03D /* Data */,
+				C9E1FDDC28D5A32E006AD07E /* Views */,
+				C9803F6E28D3E42600E1B03D /* Core */,
+				C9AEB59828D9430100F37870 /* Resources */,
 				C93C0AB828D3C59200723070 /* Assets.xcassets */,
 				C93C0ABA28D3C59200723070 /* Preview Content */,
 			);
@@ -65,6 +158,135 @@
 				C93C0ABB28D3C59200723070 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9803F6E28D3E42600E1B03D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C93ADC6D28E378A700A146C9 /* Premium */,
+				C93ADC6C28E3789B00A146C9 /* Settings */,
+				C9FD2A0D28DBD81900F97592 /* ExportDetail */,
+				C99F19F628DBC8DA00951957 /* History */,
+				C9AEB59328D909CF00F37870 /* Launch */,
+				C985CCCD28D9F170002BF88F /* Loading */,
+				C9E1FDD828D5A278006AD07E /* App */,
+				C9E1FDD528D5A235006AD07E /* Main */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C9803F6F28D3E43800E1B03D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C9AEB59D28D9821500F37870 /* Contacts.xcdatamodeld */,
+				C9AEB5A028D983E600F37870 /* DataController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C9803F7028D3E43D00E1B03D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C930A82228D98CAC0093987C /* ExportFormat.swift */,
+				C992384C28E314C800A239DB /* PremiumFeature.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C985CCCD28D9F170002BF88F /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C99F19F428DBC43200951957 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		C992385128E32EE600A239DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C992385228E32EE600A239DB /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99F19F628DBC8DA00951957 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				C9AEB5A228D9894300F37870 /* HistoryView.swift */,
+				C99F19F728DBC93D00951957 /* HistoryItemView.swift */,
+				C9FD2A0B28DBD18000F97592 /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		C9AEB59328D909CF00F37870 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C9AEB59428D909EC00F37870 /* SplashScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		C9AEB59828D9430100F37870 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C93ADC7828E37B9B00A146C9 /* InfoPlist.strings */,
+				C93ADC7428E37B9200A146C9 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9E1FDD528D5A235006AD07E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FDD628D5A253006AD07E /* MainView.swift */,
+				C9AEB59628D92BB400F37870 /* ExportViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C9E1FDD828D5A278006AD07E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C93C0AB428D3C59000723070 /* EasyContactsBackupApp.swift */,
+				C93C0AB628D3C59000723070 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C9E1FDD928D5A293006AD07E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FDDA28D5A2A2006AD07E /* Colors.swift */,
+				C9AEB59B28D9703000F37870 /* Keys.swift */,
+				C985CCCE28D9FBBA002BF88F /* CsvUtil.swift */,
+				C98C133D28DD6F27001AB2BC /* String.swift */,
+				C9AA755E28DF350E0030799B /* Ads.swift */,
+				C9AA756028DFE0340030799B /* CNContact.swift */,
+				C93ADC7A28E37BB600A146C9 /* StaticTexts.swift */,
+				C93ADC7E28E380B100A146C9 /* Extensions.swift */,
+				C93ADC8228E3814700A146C9 /* Image.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9E1FDDC28D5A32E006AD07E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C92408F828DA7A3000DD3951 /* ShareSheet.swift */,
+				C98C133F28DD773F001AB2BC /* ContactDetailView.swift */,
+				C9AA755B28DF31EE0030799B /* BannerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9FD2A0D28DBD81900F97592 /* ExportDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD2A0E28DBD82D00F97592 /* ExportDetailView.swift */,
+				C992C93F28DD132F001035EE /* DetailtemView.swift */,
+			);
+			path = ExportDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +305,10 @@
 			dependencies = (
 			);
 			name = "Easy Contacts Backup";
+			packageProductDependencies = (
+				C9AA755928DF319E0030799B /* GoogleMobileAds */,
+				C992384F28E3164900A239DB /* RevenueCat */,
+			);
 			productName = "Easy Contacts Backup";
 			productReference = C93C0AB128D3C59000723070 /* Easy Contacts Backup.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +335,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = C93C0AA828D3C59000723070;
+			packageReferences = (
+				C9AA755828DF319E0030799B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				C992384E28E3164900A239DB /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			productRefGroup = C93C0AB228D3C59000723070 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93ADC7228E37B9200A146C9 /* Localizable.strings in Resources */,
 				C93C0ABC28D3C59200723070 /* Preview Assets.xcassets in Resources */,
+				C93ADC7628E37B9B00A146C9 /* InfoPlist.strings in Resources */,
+				C9AEB59528D909EC00F37870 /* SplashScreen.storyboard in Resources */,
 				C93C0AB928D3C59200723070 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +371,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AA755F28DF350E0030799B /* Ads.swift in Sources */,
+				C93ADC7F28E380B100A146C9 /* Extensions.swift in Sources */,
+				C9AA755C28DF31EE0030799B /* BannerView.swift in Sources */,
+				C93ADC7D28E37BD800A146C9 /* PremiumView.swift in Sources */,
+				C93ADC8328E3814700A146C9 /* Image.swift in Sources */,
+				C99F19F828DBC93D00951957 /* HistoryItemView.swift in Sources */,
+				C9AA756128DFE0340030799B /* CNContact.swift in Sources */,
+				C9FD2A0F28DBD82D00F97592 /* ExportDetailView.swift in Sources */,
+				C9AEB59728D92BB400F37870 /* ExportViewModel.swift in Sources */,
+				C93ADC8128E380CF00A146C9 /* PremiumViewModel.swift in Sources */,
+				C9AEB59C28D9703000F37870 /* Keys.swift in Sources */,
+				C992384D28E314C800A239DB /* PremiumFeature.swift in Sources */,
+				C930A82328D98CAC0093987C /* ExportFormat.swift in Sources */,
+				C93ADC6F28E378C000A146C9 /* SettingsView.swift in Sources */,
 				C93C0AB728D3C59000723070 /* ContentView.swift in Sources */,
-				C93C0AB528D3C59000723070 /* Easy_Contacts_BackupApp.swift in Sources */,
+				C9E1FDDB28D5A2A2006AD07E /* Colors.swift in Sources */,
+				C93ADC7B28E37BB600A146C9 /* StaticTexts.swift in Sources */,
+				C9E1FDD728D5A253006AD07E /* MainView.swift in Sources */,
+				C9AEB5A128D983E600F37870 /* DataController.swift in Sources */,
+				C92408F928DA7A3000DD3951 /* ShareSheet.swift in Sources */,
+				C985CCCF28D9FBBA002BF88F /* CsvUtil.swift in Sources */,
+				C9FD2A0C28DBD18000F97592 /* HistoryViewModel.swift in Sources */,
+				C98C133E28DD6F27001AB2BC /* String.swift in Sources */,
+				C9AEB59F28D9821500F37870 /* Contacts.xcdatamodeld in Sources */,
+				C9AEB5A328D9894300F37870 /* HistoryView.swift in Sources */,
+				C992C94028DD132F001035EE /* DetailtemView.swift in Sources */,
+				C99F19F528DBC43200951957 /* LoadingView.swift in Sources */,
+				C98C134028DD773F001AB2BC /* ContactDetailView.swift in Sources */,
+				C93C0AB528D3C59000723070 /* EasyContactsBackupApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C93ADC7428E37B9200A146C9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93ADC7328E37B9200A146C9 /* en */,
+				C93ADC7528E37B9500A146C9 /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C93ADC7828E37B9B00A146C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93ADC7728E37B9B00A146C9 /* en */,
+				C93ADC7928E37B9E00A146C9 /* es-419 */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C93C0ABD28D3C59200723070 /* Debug */ = {
@@ -195,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +552,16 @@
 				DEVELOPMENT_TEAM = J8MKP62BTK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy-Contacts-Backup-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Easy Backup";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +569,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codergang.Easy-Contacts-Backup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +589,16 @@
 				DEVELOPMENT_TEAM = J8MKP62BTK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy-Contacts-Backup-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Easy Backup";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +606,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codergang.Easy-Contacts-Backup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +637,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C992384E28E3164900A239DB /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C9AA755828DF319E0030799B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C992384F28E3164900A239DB /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C992384E28E3164900A239DB /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		C9AA755928DF319E0030799B /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9AA755828DF319E0030799B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C9AEB59D28D9821500F37870 /* Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9AEB59E28D9821500F37870 /* Contacts.xcdatamodel */,
+			);
+			currentVersion = C9AEB59E28D9821500F37870 /* Contacts.xcdatamodel */;
+			path = Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C93C0AA928D3C59000723070 /* Project object */;
 }
