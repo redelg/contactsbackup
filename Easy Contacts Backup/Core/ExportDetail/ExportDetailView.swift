@@ -19,7 +19,9 @@ struct ContactGroup: Hashable {
     var contacts: [CNContact] = []
 }
 
-extension CNContact: Identifiable { }
+extension CNContact: Identifiable { 
+    public var id: UUID { UUID() } 
+}
 
 struct ExportDetailView: View {
     

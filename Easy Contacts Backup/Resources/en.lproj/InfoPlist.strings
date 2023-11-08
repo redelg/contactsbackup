@@ -6,4 +6,4 @@
   
 */
 
-"NSContactsUsageDescription" = "Contacts permission is needed for exporting.";
+"NSContactsUsageDescription" = "Contacts permission is needed for exporting. We don't collect your personal information, all the export process is done in your device.";
